@@ -1,0 +1,5 @@
+var like = $("[aria-label='Like']");
+
+setInterval(()=>{
+	like.click();
+}, 1000);
